@@ -11,12 +11,12 @@ export default function SamIdeate() {
     <div className='
       mb-10 max-w
       leading-8 sm:mb-10
-      p-20
+      sm:p-20 p-10
       scroll-mt-28
       h-auto
       bg-violet-100'
       id="ideate">
-      <h1 className='text-3xl font-semibold mb-10'>Ideate</h1>
+      <h1 className='text-xl sm:text-3xl font-semibold mb-10'>Ideate</h1>
       {/**BOT PERSONA */}
       <BotPersona />
       {/**User Conversational Flows */}

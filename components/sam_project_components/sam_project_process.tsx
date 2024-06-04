@@ -11,13 +11,13 @@ export default function SamProcess() {
   return (
     <section 
     className="
-      mb-28 max-w
+      mb-10 max-w
       leading-8 sm:mb-0   
       h-auto
       bg-neutral-100"
   >
     <h2 className="
-      text-neutral-950 text-5xl font-medium capitalize pt-16 text-center">
+       text-neutral-950 text-3xl sm:text-5xl font-medium capitalize pt-6 sm:pt-16 text-center">
         Approach
     </h2>
     <SamApproachSteps />

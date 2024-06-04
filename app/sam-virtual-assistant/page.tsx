@@ -9,7 +9,7 @@ import SamConclusions from '@/components/sam_project_components/sam_project_conc
 
 export default function Sam() {
   return (
-    <section className='bg-[#CDCBFE] pt-28'> 
+    <section className='bg-[#CDCBFE] pt-12 sm:pt-28'> 
       <SamBrief />
       <SamOverview />
       <SamProcess />

@@ -19,8 +19,7 @@ export default function Projects() {
             ref={ref} 
             id="projects" 
             className="
-                scroll-mt-28 mb-28 sm:mb-40
-                                
+                scroll-mt-28 mb-10 sm:mb-40       
                 bg-no-repeat bg-cover bg-center bg-fixed
                 "
         >
@@ -28,7 +27,7 @@ export default function Projects() {
                 <SectionHeading>Projects</SectionHeading>
             </div>
             <div className="md:columns-2">
-                <div>
+                <div className='mb-3'>
                     {projectsData.map((project, index) => (
                     <React.Fragment key={index}>
                         <Project {...project} />

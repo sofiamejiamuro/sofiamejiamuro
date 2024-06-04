@@ -7,7 +7,8 @@ export default function SamTest() {
     <div className='
     mb-10 max-w
     leading-8 sm:mb-10
-    p-20
+    p-10
+    sm:p-20
     scroll-mt-28
     h-auto
     bg-violet-100'

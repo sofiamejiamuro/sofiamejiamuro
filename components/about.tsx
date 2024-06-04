@@ -13,17 +13,17 @@ export default function About() {
       ref={ref}
       className="
       bg-gray-800 bg-opacity-10 backdrop-filter backdrop-blur-xl
-        mb-28 max-w-[70rem] leading-8 
-        sm:mb-40 scroll-mt-28 text-center
-        p-14 rounded-2xl m-20"
+        max-w-[70rem] leading-8 scroll-mt-28 
+        mb-10 sm:mb-40 text-center
+        p-4 sm:p-14 rounded-2xl m-16 sm:m-20"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{  delay: 0.175 }}
       id="about"
     >
-      <h2 className="text-neutral-950 text-5xl font-medium capitalize mb-8 text-center">About me</h2>
+      <h2 className="text-neutral-950 text-3xl sm:text-5xl font-medium capitalize sm:mb-8 text-center">About me</h2>
       <motion.p
-        className="text-neutral-950 mt-6 px-4 text-xl font-normal !leading-[1.5] sm:text-2xl"
+        className="text-neutral-950 mt-2 sm:mt-6 sm:px-4 text-lg font-normal !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
         I am Sofía Mejía Muro. 
@@ -31,7 +31,7 @@ export default function About() {
         and graduated as a <span className="font-bold">Frontend Developer</span> from Laboratoria.
       </motion.p>
       <motion.p
-        className="text-neutral-950 mt-6 px-4 text-xl font-normal !leading-[1.5] sm:text-2xl"
+        className="text-neutral-950 mt-2 sm:mt-6 sm:px-4 text-lg font-normal !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
         I specialize in <span className="font-bold">understanding business needs</span> and crafting solutions that best
@@ -43,7 +43,7 @@ export default function About() {
         <span className="font-bold"> enhance human-machine interaction. </span> 
       </motion.p>
       <motion.p
-        className="text-neutral-950 mt-6 px-4 text-xl font-normal !leading-[1.5] sm:text-2xl"
+        className="text-neutral-950 mt-2 sm:mt-6 sm:px-4 text-lg font-normal !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
         In addition to my professional career, I am an <span className="font-bold">Ambassador for Women in Voice Mexico</span>, an organization that promotes the participation 
@@ -53,7 +53,7 @@ export default function About() {
 
       <br></br>
       <motion.p
-        className="text-neutral-100 mt-6 px-4 text-xl font-normal !leading-[1.5] sm:text-3xl"
+        className="text-neutral-100 mt-2 sm:mt-6 sm:px-4 text-lg font-normal !leading-[1.5] sm:text-3xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
 

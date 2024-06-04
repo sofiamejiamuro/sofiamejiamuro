@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function BotPersona() {
   return (
     <div className=''>
-        <h2 className='text-3xl font-semibold'> Bot Persona</h2>
-        <p className='my-3 leading-relaxed text-justify text-xl'>
+        <h2 className='text-lg sm:text-3xl font-semibold'> Bot Persona</h2>
+        <p className='sm:my-3 leading-relaxed text-justify sm:text-xl'>
         The bot persona was created to ensure a consistent and engaging user experience. 
         By humanizing the bot, interactions become more relatable and enjoyable for users. 
         The persona outlines the characteristics of the bot, tone, and style, guiding developers and 

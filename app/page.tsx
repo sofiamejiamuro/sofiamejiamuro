@@ -10,7 +10,7 @@ import Resources from '@/components/resources';
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center px-4 pt-28">
+    <main className="flex flex-col items-center px-0 sm:px-4 pt-5 sm:pt-28">
       <Intro />
       <SectionDivider/>
       <About />

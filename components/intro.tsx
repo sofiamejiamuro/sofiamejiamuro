@@ -22,8 +22,10 @@ export default function Intro() {
         id="home"
         className="  
         bg-gray-800 bg-opacity-10 backdrop-filter backdrop-blur-xl 
-        mb-28 max-w-[45rem] text-center sm:mb-0 scroll-mt-[100rem] 
-        p-12 rounded-2xl m-20"
+        max-w-[45rem] text-center  scroll-mt-[100rem] 
+        py-4 sm:p-12
+        mb-0 sm:mb-0 
+        rounded-2xl m-20"
     >
         <div className='flex items-center justify-center'>
             <div className="relative">
@@ -64,8 +66,8 @@ export default function Intro() {
 
         <motion.h1
             className="
-                text-violet-100 mt-4 text-lg font-normal 
-                !leading-[1.5] sm:text-3xl"
+                text-violet-100 sm:mt-4 font-normal 
+                !leading-[1.5] text-lg sm:text-3xl"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
         >
@@ -74,8 +76,8 @@ export default function Intro() {
         </motion.h1>
         <motion.h1
             className="
-                text-violet-100 mb-2 mt-4 px-4 text-lg font-normal 
-                !leading-[1.5] sm:text-3xl"
+                text-violet-100 mb-1 sm:mb-2 mt-2 sm:mt-4 sm:px-4 font-normal 
+                !leading-[1.5] text-lg sm:text-3xl"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
         >
@@ -83,8 +85,8 @@ export default function Intro() {
         </motion.h1>
         <motion.p
             className="
-                text-violet-100 mb-10  px-4 text-lg font-normal 
-                !leading-[1.5] sm:text-2xl"
+                text-violet-100 sm:mb-10  sm:px-4  font-normal 
+                !leading-[1.5] text-lg sm:text-2xl"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
         >
@@ -165,10 +167,11 @@ export default function Intro() {
             */}
             <a
                 className="
-                    bg-gray-600 bg-opacity-20 p-4 text-neutral-800 border-none
+                    bg-gray-600 bg-opacity-20  text-neutral-800 border-none
                     hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] 
                     hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack 
-                    dark:bg-white/10 dark:text-white/60"
+                    dark:bg-white/10 dark:text-white/60
+                    p-4"
                 href="/SofiaMejia-Resume.pdf"
                 download
             >
