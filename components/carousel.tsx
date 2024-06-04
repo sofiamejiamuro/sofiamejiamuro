@@ -4,7 +4,11 @@ import React, { useState } from 'react';
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { FaRegArrowAltCircleLeft } from "react-icons/fa";
 
-export default function Carousel({slides}) {
+interface CarouselProps {
+    slides: string[];
+}
+
+export default function Carousel({slides}: CarouselProps){
     let [current, setCurrent] = useState(0);
 
     let previousSlide = () => {
