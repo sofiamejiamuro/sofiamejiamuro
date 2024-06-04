@@ -23,7 +23,7 @@ export default function SamOverview() {
         <div className='
           mx-6 sm:mx-12 text-neutral-950 
           place-content-center sm:px-10'>
-          <h1 className='text-xl backdrop:sm:text-3xl font-semibold  sm:mb-10'>Goals</h1>
+          <h1 className='text-xl backdrop sm:text-3xl font-semibold  sm:mb-10'>Goals</h1>
           <ul className='sm:mt-2 leading-relaxed text-justify sm:text-xl  list-disc list-inside'>
             <li>Increase leads generated through the website from 0 to 23 annually.</li>
             <li>Decrease the bounce rate from 81.48% to 50% (the bounce rate is the percentage of visitors who leave a webpage without taking any action), improving website usability.</li>
