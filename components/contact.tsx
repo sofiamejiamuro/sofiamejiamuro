@@ -8,12 +8,12 @@ import { useSectionInView } from "@/lib/hooks";
 
 
 export default function Contact() {
-  const { ref } = useSectionInView("Contact");
+{/** const { ref } = useSectionInView("Contact");*/}
+  
 
   return (
     <motion.section
       id="contact"
-      ref={ref}
       className="sm:mb-28 w-[min(100%,38rem)] text-center"
       initial={{
         opacity: 0,
