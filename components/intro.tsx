@@ -25,7 +25,8 @@ export default function Intro() {
         max-w-[45rem] text-center  scroll-mt-[100rem] 
         py-4 sm:p-12
         mb-0 sm:mb-0 
-        rounded-2xl m-20"
+        my-20 mx-8 sm:m-20
+        rounded-2xl "
     >
         <div className='flex items-center justify-center'>
             <div className="relative">
@@ -170,7 +171,7 @@ export default function Intro() {
                     bg-gray-600 bg-opacity-20  text-neutral-800 border-none
                     hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] 
                     hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack 
-                    dark:bg-white/10 dark:text-white/60
+                   
                     p-4"
                 href="/SofiaMejia-Resume.pdf"
                 download
@@ -184,7 +185,7 @@ export default function Intro() {
                     bg-gray-600 bg-opacity-20 p-4 text-neutral-800 border-none
                     hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15]
                     hover:scale-[1.15] active:scale-105 
-                    transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                    transition cursor-pointer borderBlack "
                 href="https://www.linkedin.com/in/sofiamejiamuro/"
                 target="_blank"
             >
@@ -205,7 +206,7 @@ export default function Intro() {
                     bg-gray-600 bg-opacity-20 p-4 text-neutral-800 border-none
                     hover:text-neutral-950 flex items-center 
                     gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 
-                    transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                    transition cursor-pointer borderBlack "
                 href="https://adplist.org/mentors/sofia-mejia?session=23901-mentorship-session"
             target="_blank"
             >

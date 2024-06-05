@@ -11,7 +11,7 @@ export default function SamTestOutcome() {
         <h1 className='text-3xl font-semibold mb-10'>Testing Outcome</h1>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
             <div className=' flex justify-center'>
-                <div className=' self-center'>
+                <div className='w-[40%] self-center'>
                    <Image 
                 src="/sam/iterate.png"
                 quality={"100"}

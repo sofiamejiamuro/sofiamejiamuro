@@ -15,7 +15,7 @@ export default function About() {
       bg-gray-800 bg-opacity-10 backdrop-filter backdrop-blur-xl
         max-w-[70rem] leading-8 scroll-mt-28 
         mb-10 sm:mb-40 text-center
-        p-4 sm:p-14 rounded-2xl m-16 sm:m-20"
+        p-4 sm:p-14 rounded-2xl m-8 sm:m-20"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{  delay: 0.175 }}

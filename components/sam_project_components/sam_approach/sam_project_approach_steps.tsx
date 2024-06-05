@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function SamApproachSteps() {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-4 gap-10 mt-4 sm:mt-10 px-4 sm:px-20'>
+    <div className='grid grid-cols-1 sm:grid-cols-4 gap-10 mt-10 px-20'>
       {/** <div className="max-w-sm rounded overflow-hidden shadow-lg">
         <Image src="/sam/dt_2.png"
               quality={"100"}
@@ -33,8 +33,8 @@ export default function SamApproachSteps() {
                 className='max-w'>
           </Image>        
           <div className="px-6 py-4 bg-white  hover:bg-violet-200">
-            <div className="font-bold sm:text-xl mb-2">Define</div>
-            <ul className="text-gray-700 leading-relaxed sm:text-xl">
+            <div className="font-bold text-xl mb-2">Define</div>
+            <ul className="text-gray-700 leading-relaxed text-xl">
               <li>User Persona </li>
               <li>Address the problem</li>
               <li>Mapping Topics</li>
@@ -54,8 +54,8 @@ export default function SamApproachSteps() {
                 className='max-w'>
           </Image>        
           <div className="px-6 py-4">
-          <div className="font-bold sm:text-xl mb-2">Ideate</div>
-            <ul className="text-gray-700 leading-relaxed sm:text-xl">
+            <div className="font-bold text-xl mb-2">Ideate</div>
+            <ul className="text-gray-700 leading-relaxed text-xl">
               <li>Bot Persona</li>
               <li>Conversation Flows</li>
             </ul>
@@ -74,8 +74,8 @@ export default function SamApproachSteps() {
                 className='max-w'>
           </Image>        
           <div className="px-6 py-4">
-          <div className="font-bold sm:text-xl mb-2">Prototype</div>
-            <ul className="text-gray-700 leading-relaxed sm:text-xl">
+            <div className="font-bold text-xl mb-2">Prototype</div>
+            <ul className="text-gray-700 leading-relaxed text-xl">
               <li>System Prompt</li>
             </ul>
           </div>
@@ -93,8 +93,8 @@ export default function SamApproachSteps() {
                 className='max-w'>
           </Image>        
           <div className="px-6 py-4">
-          <div className="font-bold sm:text-xl mb-2">Testing</div>
-            <ul className="text-gray-700 leading-relaxed sm:text-xl">
+            <div className="font-bold text-xl mb-2">Testing</div>
+            <ul className="text-gray-700 leading-relaxed text-xl">
               <li>LLM evaluation methodolgy</li>
             </ul>
           </div>
