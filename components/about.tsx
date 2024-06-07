@@ -24,7 +24,7 @@ export default function About() {
       <h2 className="text-neutral-950 text-3xl sm:text-5xl font-medium capitalize sm:mb-8 text-center">About me</h2>
       <motion.p
         className="text-neutral-950 mt-2 sm:mt-6 sm:px-4 text-lg 
-        font-normal !leading-[1.5] sm:text-xl text-justify"
+        font-normal !leading-[1.5] sm:text-2xl text-justify"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
         I am Sofía Mejía Muro. 
@@ -33,7 +33,7 @@ export default function About() {
       </motion.p>
       <motion.p
         className="text-neutral-950 mt-2 sm:mt-6 sm:px-4 text-lg 
-        font-normal !leading-[1.5] sm:text-xl text-justify"
+        font-normal !leading-[1.5] sm:text-2xl text-justify"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
         I specialize in <span className="font-bold">understanding business needs</span> and crafting solutions that best
@@ -46,7 +46,7 @@ export default function About() {
       </motion.p>
       <motion.p
         className="text-neutral-950 mt-2 sm:mt-6 sm:px-4 text-lg 
-        font-normal !leading-[1.5] sm:text-xl text-justify"
+        font-normal !leading-[1.5] sm:text-2xl text-justify"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
         In addition to my professional career, I am an <span className="font-bold">Ambassador for Women in Voice Mexico</span>, an organization that promotes the participation 
