@@ -6,6 +6,7 @@ import cat from "@/public/cat.png";
 import herdez from "@/public/herdez.png";
 import guru from "@/public/guru.png";
 import box from "@/public/box.png";
+import voice from "@/public/voice_devices.png";
 import bot from "@/public/bot.png";
 import dangerplanet from "@/public/danger-planet.png";
 import labo from "@/public/laboworkshop.png";
@@ -43,13 +44,22 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "SAM",
+    title: "Conversational AI",
     description:
     "SAM is the virtual assistant powered by an LLM from a tech company specializing in digital transformation.",
     tags: ["Prompt Engineering", "Conversational AI", "ChatGPT", "Product Design", "UX Design"],
     imageUrl: sam,
     url:"/sam-virtual-assistant",
     hash:"#sam"
+  },
+  {
+    title: "Voice Projects",
+    description:
+      "Voice and Multimodal experiences.",
+    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow", "Multimodal"],
+    imageUrl: voice,
+    url:"/voice-projects",
+    hash:"#voice-projects"
   },
   /**
   {
@@ -60,7 +70,7 @@ export const projectsData = [
     imageUrl: cat,
     url:"/club-atletico-talleres"
   },
-**/
+
   {
     title: "Herdez",
     description:
@@ -70,17 +80,28 @@ export const projectsData = [
     url:"/recipes",
     hash:"#herdez"
   },
+  **/
 ] as const;
 export const projectsData_2= [
   {
-    title: "Box Trainer",
+    title: "Challenges",
     description:
-      "A voice-guided immersive multimodal experience to help users train box.",
-    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow", "multimodal"],
-    imageUrl: box,
-    url:"/boxing",
-    hash:"#box-trainer"
+      "A variety of challenges designed for job applications and hackathons",
+    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow", "multimodal", "hackathon"],
+    imageUrl: dangerplanet,
+    url:"/challenges",
+    hash:"#challenges"
   },
+  {
+    title: "LLMs Playground",
+    description:
+      "Experimentation on different Large Language Models",
+    tags: ["Prompt Engineering", "ChatGPT", "Gemini", "Conversational AI",],
+    imageUrl: bot,
+    url:"/llm-playground",
+    hash:"#playground"
+  },
+  
   /*
     {
     title: "Travel Guru",
@@ -90,16 +111,16 @@ export const projectsData_2= [
     imageUrl: guru,
     url:"/travel-guru"
   }, 
+  
   {
-    title: "LLMs Playground",
+    title: "Box Trainer",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["Prompt Engineering", "ChatGPT", "API", "JavaScript", "Dialog Flow"],
-    imageUrl: bot,
-    url:"/playground",
-    hash:"#sam"
+      "A voice-guided immersive multimodal experience to help users train box.",
+    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow", "multimodal"],
+    imageUrl: box,
+    url:"/boxing",
+    hash:"#box-trainer"
   },
-  */
   {
     title: "Danger Planet",
     description:
@@ -109,6 +130,8 @@ export const projectsData_2= [
     url:"/danger-planet",
     hash:"#danger-planet"
   },
+  */
+  
 ] as const;
 
 export const experiencesData = [
