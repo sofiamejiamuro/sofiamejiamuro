@@ -8,7 +8,7 @@ export default function Challenges() {
     <main className='bg-neutral-100 pt-12 sm:py-28 mb-10'> 
       <h1 className='
         text-center text-xl sm:text-5xl font-semibold 
-        mt-6 mb-4 sm:mb-10'>
+        mt-4 mb-4 sm:mb-10'>
         VOICE PROJECTS</h1>
       <section
         className='bg-violet-100 m-10'
