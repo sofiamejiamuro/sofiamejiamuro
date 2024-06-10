@@ -71,9 +71,8 @@ export default function NativaGlobal() {
           scroll-mt-28 text-neutral-950
           h-auto bg-neutral-100 "
         id='ng-exercise-1'>
-        <div className='grid sm:grid-cols-2 gap-10'>
           <div className='
-            text-lg sm:text-xl text-justify
+            text-lg sm:text-2xl text-justify
             content-center justify-self-center'>
             <h2 className='text-lg sm:text-4xl font-medium mb-3'>
               Exercise 1</h2>
@@ -91,11 +90,11 @@ export default function NativaGlobal() {
               <li> If it is not possible to integrate, what workaround could we offer?</li>
             </ul>
           </div>
-          <div>
+          <div className='w-[70%] m-auto my-5'>
             <Image
               src="/nativa_global/ng-ex-1.png"
               quality={"100"}
-              width={"700"}
+              width={"800"}
               height={"900"}
               alt="lessons learned"
               style={{
@@ -103,7 +102,6 @@ export default function NativaGlobal() {
               }}>
             </Image>
           </div>
-        </div>
       </section>
       {/**EXERCISE 2 */}
       <section
@@ -113,9 +111,8 @@ export default function NativaGlobal() {
         scroll-mt-28 text-neutral-950
         h-auto bg-violet-100 "
         id='ng-exercise-2'>
-        <div className='grid sm:grid-cols-2 gap-10'>
-          <div className='
-            text-lg sm:text-xl text-justify
+           <div className='
+            text-lg sm:text-2xl text-justify
             content-center justify-self-center'>
             <h2 className='text-lg sm:text-4xl font-medium mb-3'>Exercise 2</h2>
             <p className='leading-relaxed'> 
@@ -147,11 +144,11 @@ export default function NativaGlobal() {
               <li>Which of the platforms do you recommend to carry out the project?</li>
             </ul>
           </div>
-          <div>
+          <div className='w-[70%] m-auto my-5'>
             <Image
               src="/nativa_global/ng-ex-2.png"
               quality={"100"}
-              width={"700"}
+              width={"800"}
               height={"900"}
               alt="lessons learned"
               style={{
@@ -159,7 +156,6 @@ export default function NativaGlobal() {
               }}>
             </Image>
           </div>
-        </div>
       </section>
       {/**EXERCISE 3 */}
       <section
@@ -170,7 +166,7 @@ export default function NativaGlobal() {
         h-auto bg-neutral-100 "
         id='ng-exercise-3'>
           <div className='
-            text-lg sm:text-xl text-justify
+            text-lg sm:text-2xl text-justify
             content-center justify-self-center'>
             <h2 className='text-lg sm:text-4xl font-medium mb-3'>Exercise 3</h2>
             <p className='leading-relaxed'> 
@@ -192,7 +188,7 @@ export default function NativaGlobal() {
         h-auto bg-violet-100 "
         id='ng-exercise-4'>
         <div className='
-          text-lg sm:text-xl text-justify
+          text-lg sm:text-2xl text-justify
           content-center justify-self-center'>
           <h2 className='text-lg sm:text-4xl font-medium mb-3'>Exercise 4</h2>
           <p className='leading-relaxed'>The client reports errors in user conversations. </p>
@@ -208,7 +204,7 @@ export default function NativaGlobal() {
         </div>
         <div className='w-[70%] m-auto my-5'>
             <Carousel slides={slides_2}/>
-          </div>
+        </div>
       </section>
     </main>
     
