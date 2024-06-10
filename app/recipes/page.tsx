@@ -4,9 +4,9 @@ import BackButton from '@/components/back_button';
 
 export default function Recipes() {
   return (
-    <div>
+    <main className=' pt-12 sm:py-28 mb-10'> 
+      <BackButton/>
       <ToBeUpdated />
-      <BackButton />
-    </div>
+    </main>
   )
 }

@@ -55,9 +55,9 @@ export const projectsData = [
   {
     title: "Challenges",
     description:
-      "A variety of challenges designed for job applications and hackathons",
-    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow", "multimodal", "hackathon"],
-    imageUrl: dangerplanet,
+      "A variety of challenges designed for job applications",
+    tags: ["Conversation Design", "Chatbots", "UX Research", "DialogFlow", "API", "Code"],
+    imageUrl: guru,
     url:"/challenges",
     hash:"#challenges"
   },
@@ -87,7 +87,7 @@ export const projectsData_2= [
     title: "Voice Projects",
     description:
       "Voice and Multimodal experiences.",
-    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow", "Multimodal"],
+    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow","Alexa Skills", "Multimodal", "LLM" , "Conversational AI"],
     imageUrl: voice,
     url:"/voice-projects",
     hash:"#voice-projects"

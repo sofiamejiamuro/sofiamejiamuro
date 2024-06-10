@@ -1,14 +1,45 @@
 import React from 'react'
 import Image from "next/image";
 import Link from 'next/link';
+import BackButton from '@/components/back_button';
 
 export default function Challenges() {
   return (
     <main className='bg-neutral-100 pt-12 sm:py-28 mb-10'> 
+      <BackButton/>
       <h1 className='
         text-center text-xl sm:text-5xl font-semibold 
         mt-4 mb-4 sm:mb-10'>
         CHALLENGES</h1>
+       {/**travel bot */}
+       <section
+        className='bg-violet-100 m-10'
+        id='uber'>
+        <Link 
+        href="/travel-bot-challenge"  
+        className='flex flex-row hover:bg-[#CDCBFE]'>
+          <div className='w-2/5 place-content-center p-3.5'>
+            <h2 className="text-2xl font-bold">Travel Bot</h2>
+            <p className="text-gray-700 text-xl">Chatbot</p>
+            <br></br>
+            <p className="text-gray-700 text-xl">
+            A bot to demonstrate understanding of chatbot functionalities and capabilities. 
+            </p>
+          </div>
+          <div className='w-3/4'>
+            <Image 
+            src="/challenges/travel-bot.png"
+            quality={"100"}
+            width={"1000"}
+            height={"900"}
+            alt="lessons learned"
+            style={{
+            
+            }}>
+            </Image> 
+          </div>
+        </Link>
+      </section>
       {/**NATIVA GLOBAL */}
       <section
         className='bg-violet-100 m-10'
@@ -29,70 +60,16 @@ export default function Challenges() {
             </Image> 
           </div>
           <div className='w-2/5 place-content-center p-3.5'>
-            <h2 className="text-2xl font-bold mb-4">Título del Texto</h2>
-            <p className="text-gray-700">
-                Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
-                Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
+            <h2 className="text-2xl font-bold">4 Challenges</h2>
+            <p className="text-gray-700 text-xl">API Integrations - Google AI - Security - Customer Service</p>
+            <br></br>
+            <p className="text-gray-700 text-xl">
+              Feasibility, Integrations, Problem solving.
             </p>
           </div>
         </Link>
       </section>
-       {/**travel bot */}
-      <section
-        className='bg-violet-100 m-10'
-        id='uber'>
-        <Link 
-        href="/travel-bot-challenge"  
-        className='flex flex-row hover:bg-[#CDCBFE]'>
-          
-          <div className='w-2/5 place-content-center p-3.5'>
-            <h2 className="text-2xl font-bold mb-4">Título del Texto</h2>
-            <p className="text-gray-700">
-                Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
-                Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
-            </p>
-          </div>
-          <div className='w-3/4'>
-            <Image 
-            src="/challenges/travel-bot.png"
-            quality={"100"}
-            width={"1000"}
-            height={"900"}
-            alt="lessons learned"
-            style={{
-            
-            }}>
-            </Image> 
-          </div>
-        </Link>
-      </section>
-       {/**uber*/}
-      <section
-        className='bg-violet-100 m-10'
-        id='uber-challenge'>
-        <Link 
-        href="/uber-challenge"
-        className='flex flex-row hover:bg-[#CDCBFE]'>
-           <div className='w-3/4 '>
-            <Image 
-            src="/challenges/uber-bg.png"
-            quality={"100"}
-            width={"1000"}
-            height={"900"}
-            alt="lessons learned"
-            style={{
-            }}>
-            </Image> 
-          </div>
-          <div className='w-2/5 place-content-center p-3.5'>
-            <h2 className="text-2xl font-bold mb-4">Título del Texto</h2>
-            <p className="text-gray-700">
-                Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
-                Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
-            </p>
-          </div>
-        </Link> 
-      </section>
+      
     </main>
   )
 }

@@ -1,11 +1,13 @@
 import React from 'react'
 import Image from "next/image";
 import Link from 'next/link';
+import BackButton from '@/components/back_button';
 
 
 export default function VoiceProjects() {
   return (
     <main className='bg-neutral-100 pt-12 sm:py-28 mb-10'> 
+      <BackButton />
       <h1 className='
       text-center text-xl sm:text-5xl font-semibold 
       mt-4 mb-4 sm:mb-10'>
@@ -18,10 +20,11 @@ export default function VoiceProjects() {
           href="/danger-planet-challenge"
           className='flex flex-row hover:bg-[#CDCBFE]'>
           <div className='w-2/5 place-content-center p-3.5'>
-            <h2 className="text-2xl font-bold mb-4">Multimodal App</h2>
-            <p className="text-gray-700">
-                Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
-                Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
+            <h2 className="text-2xl font-bold">Multimodal App</h2>
+            <p className="text-gray-700 text-xl">Google Action</p>
+            <br></br>
+            <p className="text-gray-700 text-xl">
+              Designed as a supplement to the education received in school related to civil protection.
             </p>
           </div>
           <div className='w-3/4'>
@@ -38,6 +41,7 @@ export default function VoiceProjects() {
           </div>
         </Link>   
       </section>  
+      {/**box trainer */}
       <section
         className='bg-violet-100 m-10'
         id='box-trainer'>
@@ -57,14 +61,18 @@ export default function VoiceProjects() {
             </Image> 
           </div>
           <div className='w-2/5 place-content-center p-3.5'>
-            <h2 className="text-2xl font-bold mb-4">Título del Texto</h2>
-            <p className="text-gray-700">
-                Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
-                Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
+            <h2 className="text-2xl font-bold">Multimodal App</h2>
+            <p className="text-gray-700 text-xl">Alexa Skill</p>
+            <br></br>
+            <p className="text-gray-700 text-xl">
+            An Skill that serves as a boxing coach for guiding and training users in boxing techniques, 
+            improving their physical condition, and motivating them during their workouts.
             </p>
+            <p className="text-gray-700 text-xl mt-4 italic">Work in porgress...</p>
           </div>
         </Link>
       </section>
+      {/**recipes */}
       <section
         className='bg-violet-100 m-10'
         id='recipes'>
@@ -72,11 +80,14 @@ export default function VoiceProjects() {
             href="/recipes"
             className='flex flex-row hover:bg-[#CDCBFE]'>
             <div className='w-2/5 place-content-center p-3.5'>
-              <h2 className="text-2xl font-bold mb-4">Multimodal App</h2>
-              <p className="text-gray-700">
-                  Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
-                  Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
+              <h2 className="text-2xl font-bold">Multimodal App</h2>
+              <p className="text-gray-700 text-xl">Alexa Skill</p>
+              <br></br>
+              <p className="text-gray-700 text-xl">
+                Creating new channels of interaction with the brand (food company) based on the use of its products 
+                in recipes and the implementation of a skill powered by a Large Language Models.
               </p>
+              <p className="text-gray-700 text-xl mt-4 italic">Work in porgress...</p>
             </div>
             <div className='w-3/4'>
               <Image 
