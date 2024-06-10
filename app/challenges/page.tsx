@@ -73,14 +73,7 @@ export default function Challenges() {
         <Link 
         href="/uber-challenge"
         className='flex flex-row hover:bg-[#CDCBFE]'>
-          <div className='w-2/5 place-content-center p-3.5'>
-            <h2 className="text-2xl font-bold mb-4">Título del Texto</h2>
-            <p className="text-gray-700">
-                Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
-                Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
-            </p>
-          </div>
-          <div className='w-3/4 '>
+           <div className='w-3/4 '>
             <Image 
             src="/challenges/uber-bg.png"
             quality={"100"}
@@ -90,6 +83,13 @@ export default function Challenges() {
             style={{
             }}>
             </Image> 
+          </div>
+          <div className='w-2/5 place-content-center p-3.5'>
+            <h2 className="text-2xl font-bold mb-4">Título del Texto</h2>
+            <p className="text-gray-700">
+                Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
+                Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
+            </p>
           </div>
         </Link> 
       </section>
