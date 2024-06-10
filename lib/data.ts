@@ -53,13 +53,13 @@ export const projectsData = [
     hash:"#sam"
   },
   {
-    title: "Voice Projects",
+    title: "Challenges",
     description:
-      "Voice and Multimodal experiences.",
-    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow", "Multimodal"],
-    imageUrl: voice,
-    url:"/voice-projects",
-    hash:"#voice-projects"
+      "A variety of challenges designed for job applications and hackathons",
+    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow", "multimodal", "hackathon"],
+    imageUrl: dangerplanet,
+    url:"/challenges",
+    hash:"#challenges"
   },
   /**
   {
@@ -84,13 +84,13 @@ export const projectsData = [
 ] as const;
 export const projectsData_2= [
   {
-    title: "Challenges",
+    title: "Voice Projects",
     description:
-      "A variety of challenges designed for job applications and hackathons",
-    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow", "multimodal", "hackathon"],
-    imageUrl: dangerplanet,
-    url:"/challenges",
-    hash:"#challenges"
+      "Voice and Multimodal experiences.",
+    tags: ["Conversation Design", "VIU", "UX Research", "DialogFlow", "Multimodal"],
+    imageUrl: voice,
+    url:"/voice-projects",
+    hash:"#voice-projects"
   },
   {
     title: "LLMs Playground",

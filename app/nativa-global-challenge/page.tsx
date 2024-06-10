@@ -62,6 +62,7 @@ export default function NativaGlobal() {
         </div>
       </div>
       </section>
+      
       {/**EXERCISE 1 */}
       <section  
         className="

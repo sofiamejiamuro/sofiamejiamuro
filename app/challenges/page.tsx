@@ -9,6 +9,7 @@ export default function Challenges() {
         text-center text-xl sm:text-5xl font-semibold 
         mt-4 mb-4 sm:mb-10'>
         CHALLENGES</h1>
+      {/**NATIVA GLOBAL */}
       <section
         className='bg-violet-100 m-10'
         id='nativa-global'>
@@ -36,39 +37,21 @@ export default function Challenges() {
           </div>
         </Link>
       </section>
-      <section
-        className='bg-violet-100 m-10'
-        id='planeta-peligro'>
-          <Link 
-            href="/danger-planet-challenge"
-            className='flex flex-row hover:bg-[#CDCBFE]'>
-            <div className='w-2/5 place-content-center p-3.5'>
-              <h2 className="text-2xl font-bold mb-4">Multimodal App</h2>
-              <p className="text-gray-700">
-                  Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
-                  Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
-              </p>
-            </div>
-            <div className='w-3/4'>
-              <Image 
-              src="/challenges/danger-planet-bg.png"
-              quality={"100"}
-              width={"1000"}
-              height={"900"}
-              alt="lessons learned"
-              style={{
-              
-              }}>
-              </Image> 
-            </div>
-          </Link>   
-      </section>
+       {/**travel bot */}
       <section
         className='bg-violet-100 m-10'
         id='uber'>
         <Link 
         href="/travel-bot-challenge"  
         className='flex flex-row hover:bg-[#CDCBFE]'>
+          
+          <div className='w-2/5 place-content-center p-3.5'>
+            <h2 className="text-2xl font-bold mb-4">Título del Texto</h2>
+            <p className="text-gray-700">
+                Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
+                Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
+            </p>
+          </div>
           <div className='w-3/4'>
             <Image 
             src="/challenges/travel-bot.png"
@@ -81,15 +64,9 @@ export default function Challenges() {
             }}>
             </Image> 
           </div>
-          <div className='w-2/5 place-content-center p-3.5'>
-            <h2 className="text-2xl font-bold mb-4">Título del Texto</h2>
-            <p className="text-gray-700">
-                Este es un párrafo de ejemplo. Puedes agregar aquí el contenido que desees.
-                Tailwind CSS facilita la creación de diseños flexibles y modernos con utilidades predefinidas.
-            </p>
-          </div>
         </Link>
       </section>
+       {/**uber*/}
       <section
         className='bg-violet-100 m-10'
         id='uber-challenge'>

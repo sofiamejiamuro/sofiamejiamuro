@@ -43,16 +43,12 @@ export default function Project({
         sm:pr-8 
         relative
         sm:h-[20rem] 
-        
         transition 
         sm:group-even:pl-8 
         dark:text-white 
         dark:bg-white/10 
         dark:hover:bg-white/20
-        
         max-w-[42rem]">
-
-
         <Link
           href={url}
         >
