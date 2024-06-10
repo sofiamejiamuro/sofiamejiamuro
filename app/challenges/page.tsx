@@ -14,11 +14,11 @@ export default function Challenges() {
        {/**travel bot */}
        <section
         className='bg-violet-100 m-10'
-        id='uber'>
+        id='travel-bot'>
         <Link 
         href="/travel-bot-challenge"  
         className='flex flex-row hover:bg-[#CDCBFE]'>
-          <div className='w-2/5 place-content-center p-3.5'>
+          <div className='w-2/5 grid place-content-center p-3.5'>
             <h2 className="text-2xl font-bold">Travel Bot</h2>
             <p className="text-gray-700 text-xl">Chatbot</p>
             <br></br>
@@ -59,7 +59,7 @@ export default function Challenges() {
             }}>
             </Image> 
           </div>
-          <div className='w-2/5 place-content-center p-3.5'>
+          <div className='w-2/5 grid place-content-center p-3.5'>
             <h2 className="text-2xl font-bold">4 Challenges</h2>
             <p className="text-gray-700 text-xl">API Integrations - Google AI - Security - Customer Service</p>
             <br></br>

@@ -90,7 +90,7 @@ export default function NativaGlobal() {
               <li> If it is not possible to integrate, what workaround could we offer?</li>
             </ul>
           </div>
-          <div className='w-[70%] m-auto my-5'>
+          <div className='flex justify-center my-5'>
             <Image
               src="/nativa_global/ng-ex-1.png"
               quality={"100"}
@@ -98,7 +98,7 @@ export default function NativaGlobal() {
               height={"900"}
               alt="lessons learned"
               style={{
-
+                
               }}>
             </Image>
           </div>
@@ -144,7 +144,7 @@ export default function NativaGlobal() {
               <li>Which of the platforms do you recommend to carry out the project?</li>
             </ul>
           </div>
-          <div className='w-[70%] m-auto my-5'>
+          <div className=' flex justify-center my-5'>
             <Image
               src="/nativa_global/ng-ex-2.png"
               quality={"100"}

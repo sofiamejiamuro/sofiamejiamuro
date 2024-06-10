@@ -19,7 +19,7 @@ export default function VoiceProjects() {
         <Link 
           href="/danger-planet-challenge"
           className='flex flex-row hover:bg-[#CDCBFE]'>
-          <div className='w-2/5 place-content-center p-3.5'>
+          <div className='w-2/5 grid place-content-center p-3.5'>
             <h2 className="text-2xl font-bold">Multimodal App</h2>
             <p className="text-gray-700 text-xl">Google Action</p>
             <br></br>
@@ -60,7 +60,7 @@ export default function VoiceProjects() {
             }}>
             </Image> 
           </div>
-          <div className='w-2/5 place-content-center p-3.5'>
+          <div className='w-2/5 grid place-content-center p-3.5'>
             <h2 className="text-2xl font-bold">Multimodal App</h2>
             <p className="text-gray-700 text-xl">Alexa Skill</p>
             <br></br>
