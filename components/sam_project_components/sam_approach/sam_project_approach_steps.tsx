@@ -25,7 +25,7 @@ export default function SamApproachSteps() {
         <Link
           href='#define'
         >
-          <Image src="/sam/dt_3.png"
+          <Image src="/sam/dt_4.png"
                 quality={"100"}
                 width={"700"}
                 height={"510"}
@@ -33,7 +33,7 @@ export default function SamApproachSteps() {
                 className='max-w'>
           </Image>        
           <div className="px-6 py-4 bg-white  hover:bg-violet-200">
-            <div className="font-bold text-xl mb-2">Define</div>
+            <div className="font-bold text-xl mb-2">Discover</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
               <li>User Persona </li>
               <li>Address the problem</li>
@@ -46,7 +46,7 @@ export default function SamApproachSteps() {
         <Link
           href="#ideate"
         >
-          <Image src="/sam/dt_4.png"
+          <Image src="/sam/dt_3.png"
                 quality={"100"}
                 width={"700"}
                 height={"510"}
@@ -54,7 +54,7 @@ export default function SamApproachSteps() {
                 className='max-w'>
           </Image>        
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">Ideate</div>
+            <div className="font-bold text-xl mb-2">Define</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
               <li>Bot Persona</li>
               <li>Conversation Flows</li>
@@ -74,7 +74,7 @@ export default function SamApproachSteps() {
                 className='max-w'>
           </Image>        
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">Prototype</div>
+            <div className="font-bold text-xl mb-2">Develop</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
               <li>System Prompt</li>
             </ul>
@@ -93,7 +93,7 @@ export default function SamApproachSteps() {
                 className='max-w'>
           </Image>        
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">Testing</div>
+            <div className="font-bold text-xl mb-2">Deliver</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
               <li>LLM evaluation methodolgy</li>
             </ul>

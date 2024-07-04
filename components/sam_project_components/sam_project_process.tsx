@@ -18,7 +18,7 @@ export default function SamProcess() {
   >
     <h2 className="
        text-neutral-950 text-3xl sm:text-5xl font-medium capitalize pt-6 sm:pt-16 text-center">
-        Approach
+        Process
     </h2>
     <SamApproachSteps />
     {/** 1. Define*/}

@@ -13,7 +13,8 @@ export default function Sam() {
     <main className='bg-[#CDCBFE] pt-12 sm:pt-28'>
       <BackButton /> 
       <SamBrief />
-      <SamOverview />
+      {/** <SamOverview />*/}
+      
       <SamProcess />
       <SamPostLaunch />
       <SamConclusions />
