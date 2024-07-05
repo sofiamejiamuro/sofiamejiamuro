@@ -36,7 +36,7 @@ export default function SamApproachSteps() {
             <div className="font-bold text-xl mb-2">Discover</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
               <li>User Persona </li>
-              <li>Address the problem</li>
+              <li>Abordar el problema</li>
               <li>Mapping Topics</li>
             </ul>
           </div> 
@@ -57,7 +57,7 @@ export default function SamApproachSteps() {
             <div className="font-bold text-xl mb-2">Define</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
               <li>Bot Persona</li>
-              <li>Conversation Flows</li>
+              <li>Flujos Conversacionales</li>
             </ul>
           </div>
         </Link>
@@ -70,14 +70,14 @@ export default function SamApproachSteps() {
                 quality={"100"}
                 width={"700"}
                 height={"510"}
-                alt="develop"
+                alt="Develop"
                 className='max-w'>
           </Image>        
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Develop</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
               <li>System Prompt</li>
-              <li>LLM evaluation methodolgy</li>
+              <li>Evaluar un LLM</li>
             </ul>
           </div>
         </Link>

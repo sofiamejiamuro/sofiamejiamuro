@@ -7,8 +7,8 @@ export default function SamTestOutcome() {
     <div className='
     sm:mx-12 text-neutral-950 
     place-content-center p-10'
-    id="prototype">
-        <h1 className='text-3xl font-semibold mb-10'>Testing Outcome</h1>
+    id="deliver">
+        <h1 className='text-3xl font-semibold mb-10'>Deliver</h1>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
             <div className=' flex justify-center'>
                 <div className='w-[40%] self-center'>

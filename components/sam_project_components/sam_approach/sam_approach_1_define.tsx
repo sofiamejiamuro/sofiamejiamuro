@@ -12,8 +12,8 @@ export default function SamDefine() {
     <div className='
     mx-10 sm:mx-12 text-neutral-950 
     place-content-center sm:p-10 mb-4'
-    id="define">
-    <h1 className='text-xl sm:text-3xl font-semibold mt-6 mb-4 sm:mb-10'>Define</h1>
+    id="discover">
+    <h1 className='text-xl sm:text-3xl font-semibold mt-6 mb-4 sm:mb-10'>Discover</h1>
     <h2 className='sm:text-2xl font-semibold'> User Persona</h2>
     <p className='my-3 leading-relaxed text-justify sm:text-xl'>
     As we delve into the conversation design process, it is crucial to understand the diverse audience we are catering to.
