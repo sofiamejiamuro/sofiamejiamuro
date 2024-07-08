@@ -6,6 +6,7 @@ import SamPostLaunch from '@/components/sam_es_project_components/sam_project_po
 import SamConclusions from '@/components/sam_es_project_components/sam_project_conclusions';
 import BackButton from '@/components/back_button';
 import SpanishButton from '@/components/sam_es_project_components/sam_es_version_button';
+import SamAchievements from '@/components/sam_project_components/sam_project_achievements';
 
 
 
@@ -15,10 +16,10 @@ export default function Sam() {
         <SpanishButton />
         <BackButton />
         <SamBrief />
-        {/** <SamOverview />*/}
-        
+        <SamOverview />
         <SamProcess />
         <SamPostLaunch />
+        <SamAchievements />
         <SamConclusions />
 
     </main>

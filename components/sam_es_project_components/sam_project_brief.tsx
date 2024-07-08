@@ -15,7 +15,7 @@ export default function SamBrief() {
         
         <h2 className="
         text-neutral-950 text-3xl sm:text-5xl font-medium capitalize mb-8 text-center">
-        SAM - Santex Virtual Assistant
+        SAM - Santex AI Virtual Assistant
         </h2>
         <div className='
           grid grid-cols-1 sm:grid-cols-2 sm:mt-10
@@ -36,15 +36,12 @@ export default function SamBrief() {
             </Image>
           </div>
           <div className='
-         
             rounded-lg  text-neutral-950 
             place-content-center sm:p-12'>
-            <h1 className='text-3xl sm:text-4xl font-semibold mb-10'>Brief</h1>
             <p className='sm:mt-2 leading-relaxed text-justify text-lg sm:text-2xl'>
-              SAM (Santex AI Member) el  <span className="font-bold text-neutral-950">asistente virtual inteligente</span> de una empresa de tecnología especializada en transformación digital.
-              El objetivo de SAM <span className="font-bold text-neutral-950">responder preguntas relacionadas con Santex</span> ya sea sobre soluciones y servicios
-              <span className="font-bold text-neutral-950 "> ayudar en la generación de clientes potenciales (leads) </span>
-              a través de una experiencia conversacional inteligente, y discutir cómo las últimas tecnologías, conocimientos de la industria y noticias tecnológicas actuales se relacionan con los intereses del cliente.
+            SAM (Santex AI Member) es un <span className="font-bold text-neutral-950 ">asistente virtual inteligente</span> para una empresa de tecnología especializada en transformación digital. 
+            Su objetivo es <span className="font-bold text-neutral-950 ">responder preguntas sobre Santex</span> y sus servicios, discutir tecnologías y 
+            <span className="font-bold text-neutral-950 "> generar leads mediante una experiencia conversacional inteligente.</span>
             </p>
           </div>
         </div>

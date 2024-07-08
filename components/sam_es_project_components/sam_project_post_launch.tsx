@@ -55,13 +55,6 @@ export default function PostLaunch() {
         <p className='leading-relaxed text-justify sm:text-xl'>
             Acciones Futuras: Este comportamiento fue anticipado, por lo tanto, resaltó la necesidad de una guía visual mejorada.
         </p>
-
-        <h2 className="text-neutral-950 text-2xl sm:text-5xl font-medium capitalize pt-8 sm:pt-16 text-center">
-            METAS LOGRADAS
-        </h2>
-        <div className='w-[70%] m-auto my-8'>
-            <Carousel slides={slides_goals}/>
-        </div>
       </div>
     </section>
     

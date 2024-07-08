@@ -46,11 +46,11 @@ export const projectsData = [
   {
     title: "Conversational AI",
     description:
-    "SAM is the virtual assistant powered by an LLM from a tech company specializing in digital transformation.",
+    "SAM and ALVI. AI agents powered by an LLM.",
     tags: ["Prompt Engineering", "Conversational AI", "ChatGPT", "Product Design", "UX Design"],
     imageUrl: sam,
-    url:"/sam-virtual-assistant",
-    hash:"#sam"
+    url:"/conversational-ai",
+    hash:"#conversational-ai"
   },
   {
     title: "Challenges",
@@ -193,9 +193,11 @@ export const experiencesData = [
 
 export const skillsData = [
   "Conversational AI Design",
+  "Content Design",
   "Bot Persona Creation",
   "Prompt Engineering",
   "Voice User Interface Design",
+  "Content Strategy",
   "UX Research",
   "UX Design",
   "UX Writing",

@@ -6,7 +6,7 @@ export default function Footer() {
         <p className="text-sm hover:underline">
           <span className="font-semibold">
             <a
-              href="https://github.com/sofiamejiamuro/portfolio_2024"
+              href="https://github.com/sofiamejiamuro/sofiamejiamuro"
               target="_blank"
             >Check out the code here</a>
           </span> 

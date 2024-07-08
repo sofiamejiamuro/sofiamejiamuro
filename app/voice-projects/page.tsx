@@ -68,7 +68,7 @@ export default function VoiceProjects() {
             An Skill that serves as a boxing coach for guiding and training users in boxing techniques, 
             improving their physical condition, and motivating them during their workouts.
             </p>
-            <p className="text-gray-700 text-xl mt-4 italic">Work in porgress...</p>
+            <p className="text-gray-700 text-xl mt-4 italic">Work in progress...</p>
           </div>
         </Link>
       </section>
@@ -87,7 +87,7 @@ export default function VoiceProjects() {
                 Creating new channels of interaction with the brand (food company) based on the use of its products 
                 in recipes and the implementation of a skill powered by a Large Language Models.
               </p>
-              <p className="text-gray-700 text-xl mt-4 italic">Work in porgress...</p>
+              <p className="text-gray-700 text-xl mt-4 italic">Work in progress...</p>
             </div>
             <div className='w-3/4'>
               <Image 

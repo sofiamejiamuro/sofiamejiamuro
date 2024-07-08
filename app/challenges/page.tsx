@@ -11,6 +11,35 @@ export default function Challenges() {
         text-center text-xl sm:text-5xl font-semibold 
         mt-4 mb-4 sm:mb-10'>
         CHALLENGES</h1>
+        {/**NATIVA GLOBAL */}
+      <section
+        className='bg-violet-100 m-10'
+        id='cielito-querido'>
+        <Link 
+        href="/cielito-querido"
+        className='flex flex-row hover:bg-[#CDCBFE]'>
+          <div className='w-3/4'>
+            <Image 
+            src="/challenges/cielito-cover.png"
+            quality={"100"}
+            width={"1000"}
+            height={"900"}
+            alt="lessons learned"
+            style={{
+            
+            }}>
+            </Image> 
+          </div>
+          <div className='w-2/5 grid place-content-center p-3.5'>
+            <h2 className="text-2xl font-bold">Cielito Querido Café</h2>
+            <p className="text-gray-700 text-xl">WhatsApp</p>
+            <br></br>
+            <p className="text-gray-700 text-xl">
+              A bot to promote new coffee options
+            </p>
+          </div>
+        </Link>
+      </section>
        {/**travel bot */}
        <section
         className='bg-violet-100 m-10'

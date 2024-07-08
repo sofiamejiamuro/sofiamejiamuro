@@ -75,7 +75,8 @@ export default function Intro() {
             <span className="font-bold ">Hello, I am Sofia.</span>
 
         </motion.h1>
-        <motion.h1
+        {/**
+          <motion.h1
             className="
                 text-violet-100 mb-1 sm:mb-2 mt-2 sm:mt-4 sm:px-4 font-normal 
                 !leading-[1.5] text-lg sm:text-3xl"
@@ -84,6 +85,8 @@ export default function Intro() {
         >
             <span className="font-bold">Conversational AI Solutions Consultant </span> 
         </motion.h1>
+        */}
+        
         <motion.p
             className="
                 text-violet-100 sm:mb-10  sm:px-4  font-normal 
@@ -91,7 +94,7 @@ export default function Intro() {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
         >
-            <span className="font-bold">Specializing in Human-Computer Interaction Through Language</span> 
+            <span className="font-bold">Specialized in Human-Computer Interaction Through Language</span> 
         </motion.p>
         {/**
         <motion.h1
@@ -165,7 +168,7 @@ export default function Intro() {
             Contact me here{" "}
                 <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
             </Link>
-            */}
+            
             <a
                 className="
                     bg-gray-600 bg-opacity-20  text-neutral-800 border-none
@@ -179,7 +182,7 @@ export default function Intro() {
             My Résumé{" "}
                 <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
             </a>
-
+*/}
             <a
                 className="
                     bg-gray-600 bg-opacity-20 p-4 text-neutral-800 border-none
