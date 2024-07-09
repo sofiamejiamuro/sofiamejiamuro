@@ -17,9 +17,9 @@ export default function SamConclusions() {
         <div >
           <div className='flex justify-center'>
             <Image 
-            src="/sam/conclusions-1.png"
+            src="/1-conclusions.png"
             quality={"100"}
-            width={"150"}
+            width={"250"}
             height={"900"}
             alt="lessons learned"
             style={{
@@ -46,9 +46,9 @@ export default function SamConclusions() {
         <div>
           <div className='flex justify-center'>
             <Image 
-            src="/sam/conclusions-2.png"
+            src="/2-conclusions.png"
             quality={"100"}
-            width={"150"}
+            width={"250"}
             height={"900"}
             alt="future improvements"
             style={{
@@ -76,9 +76,9 @@ export default function SamConclusions() {
         <div>
           <div className='flex justify-center'>
             <Image 
-            src="/sam/conclusions-3.png"
+            src="/3-conclusions.png"
             quality={"100"}
-            width={"150"}
+            width={"250"}
             height={"300"}
             alt="final thoughts"
             style={{

@@ -46,7 +46,7 @@ export default function ConversationalAI() {
         className='bg-violet-100 m-10'
         id='talleres'>
         <Link 
-        href="/club-atletico-talleres"
+        href="/club-atletico-talleres-en"
         className='flex flex-row hover:bg-[#CDCBFE]'>
           <div className='w-3/4'>
             <Image 

@@ -5,27 +5,11 @@ import Link from 'next/link';
 export default function SamApproachSteps() {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-4 gap-10 mt-10 px-20'>
-      {/** <div className="max-w-sm rounded overflow-hidden shadow-lg">
-        <Image src="/sam/dt_2.png"
-              quality={"100"}
-              width={"700"}
-              height={"510"}
-              alt="Sam phone"
-              className='max-w'>
-        </Image>        
-        <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">Empathize</div>
-          <ul className="text-gray-700 leading-relaxed text-xl">
-            <li> UX Research </li>
-          </ul>
-        </div>
-      </div>*/}
-      
       <div className="max-w-sm rounded overflow-hidden shadow-lg">
         <Link
           href='#discover'
         >
-          <Image src="/sam/dt_4.png"
+          <Image src="/1-discover.png"
                 quality={"100"}
                 width={"700"}
                 height={"510"}
@@ -46,7 +30,7 @@ export default function SamApproachSteps() {
         <Link
           href="#define"
         >
-          <Image src="/sam/dt_3.png"
+          <Image src="/2-define-2.png"
                 quality={"100"}
                 width={"700"}
                 height={"510"}
@@ -66,7 +50,7 @@ export default function SamApproachSteps() {
         <Link
           href="#develop"
         >
-          <Image src="/sam/dt_5.png"
+          <Image src="/3-develop.png"
                 quality={"100"}
                 width={"700"}
                 height={"510"}
@@ -86,7 +70,7 @@ export default function SamApproachSteps() {
         <Link
           href="#deliver"
         >
-          <Image src="/sam/dt_6.png"
+          <Image src="/4-deliver.png"
                 quality={"100"}
                 width={"700"}
                 height={"510"}

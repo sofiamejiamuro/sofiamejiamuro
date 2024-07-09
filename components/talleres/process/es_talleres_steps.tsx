@@ -2,25 +2,9 @@ import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 
-export default function SamApproachSteps() {
+export default function AlviApproachStepsEs() {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-4 gap-10 mt-10 px-20'>
-      {/** <div className="max-w-sm rounded overflow-hidden shadow-lg">
-        <Image src="/sam/dt_2.png"
-              quality={"100"}
-              width={"700"}
-              height={"510"}
-              alt="Sam phone"
-              className='max-w'>
-        </Image>        
-        <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">Empathize</div>
-          <ul className="text-gray-700 leading-relaxed text-xl">
-            <li> UX Research </li>
-          </ul>
-        </div>
-      </div>*/}
-      
       <div className="max-w-sm rounded overflow-hidden shadow-lg">
         <Link
           href='#discover'
@@ -35,9 +19,7 @@ export default function SamApproachSteps() {
           <div className="px-6 py-4 bg-white  hover:bg-violet-200">
             <div className="font-bold text-xl mb-2">Discover</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
-              <li>User Persona </li>
-              <li>Address the problem</li>
-              <li>Mapping Topics</li>
+              
             </ul>
           </div> 
         </Link>
@@ -46,7 +28,7 @@ export default function SamApproachSteps() {
         <Link
           href="#define"
         >
-          <Image src="/2-define.png"
+          <Image src="/2-define-2.png"
                 quality={"100"}
                 width={"700"}
                 height={"510"}
@@ -56,8 +38,7 @@ export default function SamApproachSteps() {
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Define</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
-              <li>Bot Persona</li>
-              <li>Conversation Flows</li>
+              
             </ul>
           </div>
         </Link>
@@ -70,14 +51,13 @@ export default function SamApproachSteps() {
                 quality={"100"}
                 width={"700"}
                 height={"510"}
-                alt="develop"
+                alt="Develop"
                 className='max-w'>
           </Image>        
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Develop</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
-              <li>System Prompt</li>
-              <li>LLM evaluation methodolgy</li>
+              
             </ul>
           </div>
         </Link>
@@ -96,7 +76,7 @@ export default function SamApproachSteps() {
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Deliver</div>
             <ul className="text-gray-700 leading-relaxed text-xl">
-              <li>Post Launch</li>
+              
             </ul>
           </div>
         </Link>
