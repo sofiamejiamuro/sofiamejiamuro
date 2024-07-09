@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from "next/image";
 
-export default function AlviBriefEs() {
+export default function AlviBriefEn() {
   return (
     <section 
         className="
@@ -38,11 +38,10 @@ export default function AlviBriefEs() {
             place-content-center sm:p-12'>
             <h1 className='text-3xl sm:text-4xl font-semibold mb-10'>Brief</h1>
             <p className='sm:mt-2 leading-relaxed text-justify text-lg sm:text-2xl'>
-            Alvi es un <span className="font-bold text-neutral-950">apasionado hincha del Club Atlético Talleres de Córdoba</span>, 
-            uno de los equipos de fútbol más queridos y seguidos en Argentina.
-            Este asistente virtual está diseñado para <span className="font-bold text-neutral-950">conectar con los socios del club</span> y brindarles una experiencia interactiva y personalizada. 
-            Alvi no solo responde preguntas y resuelve inquietudes, sino que también juega un papel crucial en 
-            <span className="font-bold text-neutral-950"> promover la afiliación al club, fomentando un sentido de comunidad y pertenencia</span> entre los aficionados.
+            Alvi is a <span className="font-bold text-neutral-950">passionate fan of Club Atlético Talleres de Córdoba</span>, one of the most beloved and followed football teams in Argentina.
+            This virtual assistant is designed to <span className="font-bold text-neutral-950">connect with the club's members and provide them with an interactive and personalized 
+            experience</span>. Alvi not only answers questions and resolves concerns but also <span className="font-bold text-neutral-950">plays a crucial role in promoting club membership</span>, 
+            fostering a sense of community and belonging among fans.
             </p>
           </div>
         </div>
