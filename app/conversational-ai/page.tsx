@@ -68,7 +68,7 @@ export default function ConversationalAI() {
             Alvi is a friendly and passionate viratual assitant, 
             ready to answer all questions related to Club Atlético Talleres.
             </p>
-            <p className="text-gray-700 text-xl mt-4 italic">Work in progress...</p>
+           
           </div>
         </Link>
       </section>
