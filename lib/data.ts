@@ -21,25 +21,39 @@ export const links = [
     hash: "/#home",
   },
   {
+    name: "Work",
+    hash: "/#work",
+  },
+  {
     name: "About",
     hash: "/#about",
   },
   {
-    name: "Projects",
-    hash: "/#projects",
+    name: "Miscellaneous",
+    hash: "/#miscellaneous",
+  },
+   /*
+    {
+    name: "Random",
+    hash: "/#resources",
   },
   {
+    name: "Contact",
+    hash: "/#contact",
+  },
+
+    {
     name: "Experience",
     hash: "/#experience",
   },
   {
-    name: "Resources",
-    hash: "/#resources",
-  },
-  {
     name: "Skills",
     hash: "/#skills",
+      {
+    name: "Projects",
+    hash: "/#projects",
   },
+  },*/
 ] as const;
 
 export const projectsData = [
