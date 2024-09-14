@@ -22,15 +22,15 @@ export const links = [
   },
   {
     name: "Work",
-    hash: "/#work",
+    hash: "/work",
   },
   {
     name: "About",
-    hash: "/#about",
+    hash: "/about",
   },
   {
     name: "Miscellaneous",
-    hash: "/#miscellaneous",
+    hash: "/miscellaneous",
   },
    /*
     {
@@ -267,5 +267,44 @@ export const resourcesData_2 = [
     tags: ["Women Empowerment", "Mentoring", "Networking", "Community"],
     imageUrl: wivmex,
     url:"https://www.linkedin.com/company/womeninvoicemx"
+  },
+] as const;
+
+export const latestProjects = [
+  {
+    title: "SAM",
+    description:
+    "SAM and ALVI. AI agents powered by an LLM.",
+    tags: ["Prompt Engineering", "Conversational AI", "ChatGPT", "Product Design", "UX Design"],
+    imageUrl: sam,
+    url:"/sam-virtual-assistant",
+    hash:"#sam-virtual-assistant"
+  },
+  {
+    title: "Personal Loans",
+    description:
+      "A variety of challenges designed for job applications",
+    tags: ["Design Thinking","Conversation Design", "Chatbots", "UX Research"],
+    imageUrl: guru,
+    url:"/banking",
+    hash:"#banking"
+  },
+  {
+    title: "Recipes",
+    description:
+    "Recipes",
+    tags: ["Prompt Engineering", "Conversational AI", "ChatGPT", "Product Design", "UX Design"],
+    imageUrl: sam,
+    url:"/recipes",
+    hash:"#recipes"
+  },
+  {
+    title: "Travel Bot",
+    description:
+    "Travel Bot",
+    tags: ["Prompt Engineering", "Conversational AI", "ChatGPT", "Product Design", "UX Design"],
+    imageUrl: sam,
+    url:"/travel-bot-ai",
+    hash:"#travel-bot-ai"
   },
 ] as const;

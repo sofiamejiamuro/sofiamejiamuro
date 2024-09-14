@@ -7,17 +7,20 @@ import Experience from '@/components/experience';
 import Contact from '@/components/contact';
 import Resource from '@/components/resource';
 import Resources from '@/components/resources';
+import HomeContent from '@/components/home_content';
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-0 sm:px-4 pt-5 sm:pt-28">
       <Intro />
       <SectionDivider/>
-      <About />
-      <Projects />
-      <Experience />
-      <Resources />
-      <Skills />
+      <HomeContent/>
+      <Experience/>
+      {/**/}
+      {/*<About />*/}
+      {/*<Projects />*/}
+      {/*<Resources />*/}
+      {/*<Skills />*/}
     </main>
   )
 }

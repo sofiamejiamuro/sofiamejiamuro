@@ -5,7 +5,6 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
-import purple from "@/public/daniele-levis-pelusi-Vey6fioB1eI-unsplash.jpg";
 
 type ProjectProps = (typeof projectsData)[number];
 
