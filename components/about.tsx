@@ -14,16 +14,16 @@ export default function About() {
       className="
       bg-gray-800 bg-opacity-10 backdrop-filter backdrop-blur-xl
         max-w-[70rem] leading-8 scroll-mt-28 
-        mb-10 sm:my-40 text-center
+        mb-10 text-center
         p-4 sm:p-14 rounded-2xl m-8"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{  delay: 0.175 }}
       id="about"
     >
-      <h2 className="text-neutral-950 text-3xl sm:text-5xl font-medium capitalize sm:mb-8 text-center">About me</h2>
+      <h2 className="text-gray-800 text-3xl sm:text-5xl font-medium capitalize sm:mb-8 text-center">About me</h2>
       <motion.p
-        className="text-neutral-950 mt-2 sm:mt-6 sm:px-4 text-lg 
+        className="text-gray-800 mt-2 sm:mt-6 sm:px-4 text-lg 
         font-normal !leading-[1.5] sm:text-xl text-justify"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
@@ -32,7 +32,7 @@ export default function About() {
         and graduated as a <span className="font-bold">Frontend Developer</span> from Laboratoria.
       </motion.p>
       <motion.p
-        className="text-neutral-950 mt-2 sm:mt-6 sm:px-4 text-lg 
+        className="text-gray-800 mt-2 sm:mt-6 sm:px-4 text-lg 
         font-normal !leading-[1.5] sm:text-xl text-justify"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
@@ -45,7 +45,7 @@ export default function About() {
         <span className="font-bold"> enhance human-machine interaction. </span> 
       </motion.p>
       <motion.p
-        className="text-neutral-950 mt-2 sm:mt-6 sm:px-4 text-lg 
+        className="text-gray-800 mt-2 sm:mt-6 sm:px-4 text-lg 
         font-normal !leading-[1.5] sm:text-xl text-justify"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
@@ -56,12 +56,12 @@ export default function About() {
 
       <br></br>
       <motion.p
-        className="text-neutral-100 mt-2 sm:mt-6 sm:px-4 text-lg 
+        className="text-gray-800 mt-2 sm:mt-6 sm:px-4 text-lg 
         font-normal !leading-[1.5] sm:text-3xl "
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}>
 
-        <span className="font-bold text-neutral-950">Let’s talk future.</span> 
+        <span className="font-bold text-gray-800">Let’s talk future.</span> 
       </motion.p>
     </motion.section>
   )

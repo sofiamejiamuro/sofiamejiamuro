@@ -16,7 +16,7 @@ export default function Resources() {
             ref={ref} 
             id="resources" 
             className="
-                scroll-mt-28 mb-10 sm:mb-40
+                scroll-mt-28 mb-10 sm:m-10
                 bg-no-repeat bg-cover bg-center bg-fixed">
             <div >
                 <SectionHeading>Resources</SectionHeading>
