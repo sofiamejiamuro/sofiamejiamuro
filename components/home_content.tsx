@@ -15,9 +15,9 @@ añadir en section =  ref={ref}
         <section 
             id="latest-projects" 
             className="
-                scroll-mt-28  mt-16 sm:mb-40       
+                scroll-mt-28       
                 bg-no-repeat bg-cover bg-center bg-fixed
-                
+                p-10
                 "
         >
             <div>
@@ -26,8 +26,8 @@ añadir en section =  ref={ref}
                 Latest Projects
                 </h2>
             </div>
-            <div className="md:columns-2 m4">
-                <div className='mb-3'>
+            <div className="sm:columns-2">
+                <div className="">
                     {latestProjects.map((project, index) => (
                     <React.Fragment key={index}>
                         <Project {...project} />
@@ -37,11 +37,11 @@ añadir en section =  ref={ref}
             </div>
             <div className="
                 flex flex-col sm:flex-row items-center justify-center gap-7 
-                px-4 text-lg font-medium">
+                px-4 text-lg font-medium my-10">
                 <a
                     className="
-                        bg-gray-600 bg-opacity-20 p-4 text-neutral-800 border-none
-                        hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15]
+                        bg-violet-950 bg-opacity-50 p-5 text-neutral-100 text-xl
+                        hover:text-neutral-100 flex items-center gap-2 rounded-full focus:scale-[1.15]
                         hover:scale-[1.15] active:scale-105 
                         transition cursor-pointer borderBlack "
                     href="/work"

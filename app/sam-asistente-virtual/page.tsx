@@ -13,15 +13,14 @@ import SamAchievements from '@/components/sam_project_components/sam_project_ach
 export default function Sam() {
   return (
     <main className='bg-[#CDCBFE] pt-12 sm:pt-28'>
-        <SpanishButton />
-        <BackButton />
-        <SamBrief />
-        <SamOverview />
-        <SamProcess />
-        <SamPostLaunch />
-        <SamAchievements />
-        <SamConclusions />
-
+      <SpanishButton />
+      <BackButton />
+      <SamBrief />
+  å    <SamOverview />
+      <SamProcess />
+      <SamPostLaunch />
+      <SamAchievements />
+      <SamConclusions />
     </main>
   )
 }

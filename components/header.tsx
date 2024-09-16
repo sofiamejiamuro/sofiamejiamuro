@@ -13,10 +13,10 @@ export default function Header() {
 
   return (
     <header className="relative">
-      <nav className="fixed top-0 right-0 z-40
-      "
+      <div className="">
+        <nav className="fixed top-0 right-0 z-40 "
       >
-        <ul className="flex  p-6 text-lg"
+        <ul className="flex p-6 text-lg text-gray-600"
         >
           {links.map((link) => (
             <motion.li
@@ -27,7 +27,7 @@ export default function Header() {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center p-4 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300",
+                  "flex w-full items-center justify-center p-4 hover:text-gray-600 transition dark:text-gray-500 dark:hover:text-gray-300",
                   {
                     "text-gray-950 dark:text-gray-200":
                       activeSection === link.name,
@@ -56,7 +56,9 @@ export default function Header() {
             </motion.li>
           ))}
         </ul>
-      </nav>
+        </nav>
+      </div>
+     
     </header>
   );
 }

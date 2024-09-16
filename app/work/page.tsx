@@ -1,14 +1,53 @@
-import React from 'react';
-import ToBeUpdated from '@/components/to_be_updated';
+import React from 'react'
+import Image from "next/image";
+import Link from 'next/link';
 import BackButton from '@/components/back_button';
+import { AiProjects } from '@/lib/projects_data';
+import { ConversationProjects } from '@/lib/projects_data';
+import { MultimodalProjects } from '@/lib/projects_data';
+import WorkAIProjects from '@/components/work_projects';
+
 
 export default function Work() {
   return (
-    <div>
-        <h1>Work</h1>
-        <BackButton />
-        <ToBeUpdated />
-       
-    </div>
+    <main className="bg-[#CDCBFE] pt-10 sm:py-20 mb-10"> 
+      <BackButton />
+      <h1 className='
+      text-center text-2xl sm:text-4xl font-semibold text-gray-600
+      m-7'>
+        CONVERSATIONAL AI
+      </h1>
+      <div className='sm:columns-3 px-3'>
+        {AiProjects.map((project, index) => (
+          <React.Fragment key={index}>
+            <WorkAIProjects {...project}/>
+          </React.Fragment > 
+          ))}
+      </div>
+      <h1 className='
+      text-center text-2xl sm:text-4xl font-semibold text-gray-600
+      m-7'>
+        CONVERSATIONAL DESIGN
+      </h1>
+      <div className='sm:columns-3 px-3'>
+        {ConversationProjects.map((project, index) => (
+          <React.Fragment key={index}>
+            <WorkAIProjects {...project}/>
+          </React.Fragment > 
+          ))}
+      </div>
+      <h1 className='
+      text-center text-2xl sm:text-4xl font-semibold text-gray-600
+      m-7'>
+        MULTIMODAL
+      </h1> 
+      <div className='sm:columns-3 px-3 '>
+        {MultimodalProjects.map((project, index) => (
+          <React.Fragment key={index}>
+            <WorkAIProjects {...project}/>
+          </React.Fragment > 
+          ))}
+      </div>
+    </main>
   )
 }

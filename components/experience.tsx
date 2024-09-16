@@ -12,11 +12,11 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
-    const { ref } = useSectionInView("Experience", 0.5);
+    {/*const { ref } = useSectionInView("Experience", 0.5);  ref={ref}*/}
     const { theme } = useTheme();
 
     return (
-        <section id="experience" ref={ref} className="mb-10 sm:mb-40">
+        <section id="experience" className="mb-10 sm:mb-40">
             <SectionHeading>Experience</SectionHeading>
             <VerticalTimeline lineColor="">
             {experiencesData.map((item, index) => (

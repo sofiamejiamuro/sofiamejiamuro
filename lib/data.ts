@@ -159,7 +159,7 @@ export const experiencesData = [
     */
     description: "Conversational AI Design | UX Research | UX Writing | Prompt Engineering | Data Analysis | Dashboard Design | User Acceptance Testing",
     icon: React.createElement(PiRobot),
-    date: "May 2023 - present",
+    date: "May 2023 - Jul 2024",
   },
   {
     title: "ESPRESSIVE - Sr Conversational AI Analyst - Partner Success",

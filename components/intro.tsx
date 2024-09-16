@@ -172,7 +172,7 @@ export default function Intro() {
             <a
                 className="
                     bg-gray-600 bg-opacity-20  text-neutral-800 border-none
-                    hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] 
+                    hover:text-gray-800 flex items-center gap-2 rounded-full focus:scale-[1.15] 
                     hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack 
                    
                     p-4"
@@ -186,7 +186,7 @@ export default function Intro() {
             <a
                 className="
                     bg-gray-600 bg-opacity-20 p-4 text-neutral-800 border-none
-                    hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15]
+                    hover:text-gray-800 flex items-center gap-2 rounded-full focus:scale-[1.15]
                     hover:scale-[1.15] active:scale-105 
                     transition cursor-pointer borderBlack "
                 href="https://www.linkedin.com/in/sofiamejiamuro/"
@@ -207,7 +207,7 @@ export default function Intro() {
             <a
                 className="
                     bg-gray-600 bg-opacity-20 p-4 text-neutral-800 border-none
-                    hover:text-neutral-950 flex items-center 
+                    hover:text-neutral-800 flex items-center 
                     gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 
                     transition cursor-pointer borderBlack "
                 href="https://adplist.org/mentors/sofia-mejia?session=23901-mentorship-session"

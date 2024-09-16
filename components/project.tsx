@@ -31,7 +31,7 @@ export default function Project({
         scale: scaleProgess,
         opacity: opacityProgess,
       }}
-      className=" group mb-3 sm:mb-8 last:mb-0"
+      className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section className="
         bg-gray-800 bg-opacity-10 backdrop-filter backdrop-blur-xl
