@@ -290,8 +290,8 @@ export const latestProjects = [
       "A variety of challenges designed for job applications",
     tags: ["Design Thinking","Conversation Design", "Chatbots", "UX Research"],
     imageUrl: guru,
-    url:"/banking",
-    hash:"#banking"
+    url:"/banking-en",
+    hash:"#banking-en"
   },
   {
     title: "Recipes",

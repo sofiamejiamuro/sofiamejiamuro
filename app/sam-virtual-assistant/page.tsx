@@ -11,7 +11,7 @@ import SpanishButton from '@/components/sam_project_components/sam_es_version_bu
 
 export default function Sam() {
   return (
-    <main className='bg-[#CDCBFE] pt-12 sm:pt-28'>
+    <main className='bg-[#CDCBFE] pt-10 sm:pt-28'>
       <SpanishButton />
       <BackButton /> 
       <SamBrief />

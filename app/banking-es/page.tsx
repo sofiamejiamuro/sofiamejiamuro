@@ -1,0 +1,40 @@
+import React from 'react'
+import ToBeUpdated from '@/components/to_be_updated';
+import BackButton from '@/components/back_button';
+import TranslationButton from '@/project_components/translation_button';
+import Brief from '@/project_components/brief';
+import Overview from '@/project_components/overview';
+
+import { brief_es, summary_es, process_stages_es, conclusions_es } from '@/lib/projects_data/banking';
+import ProcessStages from '@/project_components/process_stages';
+import Conclusions from '@/project_components/conclusions';
+
+export default function BankingEs() {
+    const english_url="/banking-en"
+    const spanish_url="/banking-es"
+
+    return (
+      <main className='bg-[#CDCBFE] pt-10 sm:pt-28'> 
+        {/* Translation button send each urls for spanish and english version*/}
+        <TranslationButton english={english_url} spanish={spanish_url}/>
+        {/* Back button crear uno nuevo para el nuevo folder*/}
+        <BackButton/>
+        <Brief content={brief_es}/>
+        {/* In a Nutshell */}  
+        <Overview content={summary_es} />
+        {/* Process */}
+        <ProcessStages content={process_stages_es}/>
+          {/* Empathize */}
+          {/* Define*/}
+          {/* Ideate*/}
+          {/* Prototype and Test*/}
+        {/* Results */}
+        {/* Post Launch*/}
+        {/* For the Future*/}
+        {/* What would I have done differently?*/}
+        {/* Lessons Learned */}
+        <Conclusions content={conclusions_es}/>
+        {/* <ToBeUpdated />*/}
+      </main>
+    )
+}

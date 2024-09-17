@@ -38,7 +38,7 @@ export const ConversationProjects = [
         product_type: "WhatsApp Bot",
         description:"",
         imageUrl: travelbot,
-        url:"/banking",
+        url:"/banking-en",
     },
     {
         project_name: "Travel Bot",

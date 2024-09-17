@@ -16,7 +16,7 @@ export default function Sam() {
       <SpanishButton />
       <BackButton />
       <SamBrief />
-  å    <SamOverview />
+      <SamOverview />
       <SamProcess />
       <SamPostLaunch />
       <SamAchievements />
