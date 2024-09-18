@@ -12,7 +12,7 @@ export default function WorkAIProjects({
 }: any) {
   return (
     <div className="
-     rounded-xl overflow-hidden shadow-lg bg-violet-100 hover:bg-violet-300 my-5 sm:my-0">
+     rounded-xl overflow-hidden shadow-lg bg-violet-100 hover:bg-violet-300 mb-5">
         <Link 
             href={url} 
             >

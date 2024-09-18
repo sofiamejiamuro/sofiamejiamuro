@@ -30,6 +30,21 @@ export const AiProjects = [
         imageUrl: "/sam/sam-cover.png",
         url:"/travel-bot-ai",
     },
+    {
+        project_name: "La Haus - Real State",
+        product_type: "AI Agent",
+        description:"Alvi is a friendly and passionate viratual assitant, ready to answer all questions related to Club Atlético Talleres.",
+        imageUrl: "/sam/sam-cover.png",
+        url:"/realstate",
+    },
+    {
+        project_name: "Coche Credit - Automotive",
+        product_type: "AI Agent",
+        description:"Alvi is a friendly and passionate viratual assitant, ready to answer all questions related to Club Atlético Talleres.",
+        imageUrl: "/sam/sam-cover.png",
+        url:"/automotive",
+    },
+    
 ] as const;
 
 export const ConversationProjects = [

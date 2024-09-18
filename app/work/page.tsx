@@ -14,10 +14,10 @@ export default function Work() {
       <BackButton />
       <h1 className='
       text-center text-2xl sm:text-4xl font-semibold text-gray-600
-      m-7'>
+      m-10'>
         CONVERSATIONAL AI
       </h1>
-      <div className='sm:columns-3 px-3'>
+      <div className='sm:columns-3 px-3 m-5'>
         {AiProjects.map((project, index) => (
           <React.Fragment key={index}>
             <WorkAIProjects {...project}/>
@@ -26,7 +26,7 @@ export default function Work() {
       </div>
       <h1 className='
       text-center text-2xl sm:text-4xl font-semibold text-gray-600
-      m-7'>
+      m-10'>
         CONVERSATIONAL DESIGN
       </h1>
       <div className='sm:columns-3 px-3'>
@@ -38,7 +38,7 @@ export default function Work() {
       </div>
       <h1 className='
       text-center text-2xl sm:text-4xl font-semibold text-gray-600
-      m-7'>
+      m-10'>
         MULTIMODAL
       </h1> 
       <div className='sm:columns-3 px-3 '>

@@ -14,17 +14,23 @@ export const brief_es =
 }
 
 // IN A NUTSHELL
-export const summary_en =  
+export const overview_en =  
 {
     about_project: "testing 1",
     about_my_role: "testing 2",
+    problem: "",
+    goals:"",
+    img:""
 }
 
 
-export const summary_es =
+export const overview_es =
 {
     about_project: "ES testing 1",
     about_my_role: "ES testing 2",
+    problem: "",
+    goals:"",
+    img:""
 }
 
 // PROCESS STAGES
