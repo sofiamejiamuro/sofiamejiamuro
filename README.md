@@ -80,8 +80,10 @@
 ### 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sofiamejiamuro&show_icons=true&theme=tokyonight&hide_border=true&title_color=6366f1&icon_color=4285f4" alt="Sofía's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sofiamejiamuro&layout=compact&theme=tokyonight&hide_border=true&title_color=6366f1" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com/?user=sofiamejiamuro&theme=tokyonight&hide_border=true" alt="Sofía's GitHub Streak" />
+  <br/><br/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sofiamejiamuro&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sofiamejiamuro&theme=tokyonight" alt="Top Languages" />
 </div>
 
 ---
